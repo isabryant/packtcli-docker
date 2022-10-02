@@ -7,4 +7,4 @@ RUN pip install git+https://github.com/mjenczmyk/Packt-Publishing-Free-Learning.
 
 COPY . .
 
-CMD [ "packt-cli", "-sgd" ]
+CMD [ "python", "script/spider.py", "-c", "config/prod.cfg", "-u", "googledrive", "-s", "firebase", "-n", "gmail" ]
