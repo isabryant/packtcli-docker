@@ -13,4 +13,4 @@ paramiko
 cryptography
 scp
 onedrivesdk
-python-pushover
+git+https://github.com/Wyattjoh/pushover
